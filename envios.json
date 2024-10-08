@@ -1,0 +1,58 @@
+{
+    "remitente": {
+        "nombre": "Nombre remitente",
+        "identificacion": {
+            "tipo": "Cédula de Ciudadanía",
+            "numero": "123456789"
+        },
+        "telefono": "telefono remitente",
+        "email": "email remitente"
+    },
+    "destinatario": {
+        "nombre": "nombre destinatario",
+        "identificacion": {
+            "tipo": "Cédula de Ciudadanía",
+            "numero": "123456789"
+        },
+        "telefono": "telefono destinatario",
+        "email": "email remitente"
+    },
+    "envio": {
+        "id": "222222",
+        "fecha_envio": "2024-10-05",
+        "fecha_estimada_entrega": "2024-10-08",
+        "medio_transporte": "medio del trabsporte",
+        "valor_reportado": 1500000,
+        "estado": [
+            {
+                "Estado": "Descripcion estado",
+                "fecha del estado": "fecha del estado"
+            }
+        ],
+        "origen": {
+            "ciudad": "Bogotá",
+            "direccion": "Calle 123 #45-67"
+        },
+        "destino": {
+            "ciudad": "Medellín",
+            "direccion": "Carrera 8 #12-34"
+        },
+        "paquete": {
+            "peso": "peso paquete",
+            "empaque": "tipo de empaque",
+            "cantidad": "cantidad",
+            "largo": "Largo en cm",
+            "ancho": "ancho en cm",
+            "alto": "alto en cm",
+            "contenido": "contenido del paquete"
+        },
+        "novedades": [
+            {
+                "novedad 1": "Descripcion de la novedad1"
+            },
+            {
+                "novedad 2": "Descripcion de la novedad 2"
+            }
+        ]
+    }
+}
